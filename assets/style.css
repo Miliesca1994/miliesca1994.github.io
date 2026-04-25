@@ -13,11 +13,18 @@ h3 {
 }
 
 #Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
+
+  height: 200px;
   background-size: cover;
   background-position: center;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
 }
+
+.image-top:hover {
+  transform: scale(1.05);
+}
+
 
 #hero{
     border: 300;
