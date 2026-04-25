@@ -6,11 +6,11 @@ footer{
     margin: 2px;
     font-size: small;
 }
-h3{
-    padding: 2px;
-    margin: 2px;
-    display: block;
+h3 {
+  padding: 2px;
+  margin: 2px;
 }
+
 #Mis-trabajos .image-top {
   height: 250px;
   background-repeat: no-repeat;
@@ -41,13 +41,6 @@ body {
 
 /* Mis trabajos */
 
-#Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 /* Contacto */
 
 #Contacto form label {
@@ -59,9 +52,8 @@ body {
   #Contacto form label {
     font-weight: 400;
   }
+}
 
   .navbar-brand{
     width: 100px;
   }
-
-}
